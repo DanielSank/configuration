@@ -1,2 +1,2 @@
-alias clr='printf "\033c"'
+alias cls='printf "\033c"'
 
