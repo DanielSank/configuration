@@ -1,0 +1,16 @@
+
+[push]
+	default = simple
+[core]
+	editor = gedit
+	eol = lf
+	autocrlf = input
+[alias]
+	tree = log --all --graph --decorate=short --color --format=format:'%C(bold blue)%h%C(reset) %C(auto)%d%C(reset)\n         %C(black)[%cr]%C(reset)  %x09%C(black)%an: %s %C(reset)'
+[diff]
+	tool = meld
+	guitool = meld
+[difftool]
+  prompt = false
+[difftool "meld"]
+	path=/usr/bin/meld
