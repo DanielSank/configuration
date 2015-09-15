@@ -1,0 +1,6 @@
+Set up Java 8
+
+In ~/lib put a jdk directory
+In ~/bin put use-java8 with contents:
+export PATH=~/lib/<jdk-dir>/bin:$PATH
+Use source to set this jdk.
